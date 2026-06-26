@@ -1,21 +1,32 @@
 # Hi, I'm Murtaza
 
-I'm a software developer with experience across the full stack. I've worked with Django, TypeScript, and  frontends. I enjoy building clean, functional tools and exploring new frameworks.
+I'm a software engineer (B.A. Computer Science, UC Berkeley) who builds production
+systems at scale and AI-powered data tools. Most recently I've been building VC
+intelligence infrastructure with RAG pipelines, and before that I shipped document
+infrastructure handling 200,000+ annual tax forms at a fintech 401(k) provider.
 
-## Tech I'm familair with
+I like problems where the engineering has to be reliable and the output has to be
+clear — pipelines, distributed systems, and turning messy data into something useful.
 
-**Languages:** Python · TypeScript · C# · HTML/CSS/JavaScript  
-**Frameworks:** Django · Next.js · React  
-**Tools:** Tailwind CSS · SQLite · Git
+## Tech I work with
 
-## Repos of interest
+**Languages:** Python · TypeScript · Java · C/C++/C# · SQL
+**Backend & data:** FastAPI · Django · Node.js · MongoDB · GraphQL
+**AI/LLM:** Anthropic Claude · Voyage AI · RAG pipelines · vector embeddings
+**Infra:** Docker · AWS S3 · Linux · Git · CI/CD
 
-- **[humaninterest2025](https://github.com/myhiraj/humaninterest2025)** — A Django-based HSA (Health Savings Account) management platform with IRS-compliant transaction validation, virtual card issuance, and admin tooling.
-- **[graphacademy_mockup](https://github.com/myhiraj/graphacademy_mockup)** — A Next.js + Tailwind UI mockup of the Neo4j GraphAcademy learning platform. Live on Vercel.
-- **[sharp-gorillas](https://github.com/myhiraj/sharp-gorillas)** — C# Unity game project.
+## Selected projects
+
+- **[antler-digest-mvp](https://github.com/myhiraj/antler-digest-mvp)** — Production
+  RAG pipeline for a VC fund. Ingests startup/VC news from RSS feeds and email
+  (Postmark), chunks and embeds content with Voyage AI, stores vectors in MongoDB
+  Atlas, and generates scheduled daily briefings with Claude. FastAPI + APScheduler,
+  deployed on Railway.
+- **[cookie-analytics](https://github.com/myhiraj/cookie-analytics)** — Python CLI
+  that parses activity logs to find the most active cookie for a given date using a
+  dual-index data structure, with a test suite covering malformed input and edge cases.
 
 ## Contact
 
-Email me at murtazahiraj@berkeley.edu
-
-alt email: murtazahiraj585@gmail.com
+- murtazahiraj@berkeley.edu
+- [LinkedIn](https://www.linkedin.com/in/myhiraj)
